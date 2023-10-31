@@ -19,25 +19,25 @@ task_enviar_email: Task
 task_validar_email: Task
 task_testar_email: Task
 
-# ola_foi_feito = ola_mundo.delay()
-# logger.success(ola_foi_feito)
+ola_foi_feito = ola_mundo.delay()
+logger.success(ola_foi_feito)
 
-# time.sleep(2)
+time.sleep(2)
 
-# ola_mundo.apply_async()
-# ola_mundo.apply_async()
-# ola_mundo.apply_async()
-# ola_mundo.apply_async()
+ola_mundo.apply_async()
+ola_mundo.apply_async()
+ola_mundo.apply_async()
+ola_mundo.apply_async()
 
-# time.sleep(2)
+time.sleep(2)
 
-# chain(vezes_quatro.s(1), mais_y.s(2))()
+chain(vezes_quatro.s(1), mais_y.s(2))()
 
 email = 'hello@gmail.com'
 
-# task_validar_email.delay(*[email])
+task_validar_email.delay(*[email])
 
-# task_enviar_email.apply_async(args=[email])
+task_enviar_email.apply_async(args=[email])
 
 # Rodar worker com pool solo
 task_testar_email.delay(email=email)
