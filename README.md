@@ -11,7 +11,9 @@ Exemplos didáticos para a Python Brasil 2023, com o intuito de demonstrar como 
 ### Comandos para inicar venv
 
 >python3.9 -m venv venv
+
 >. venv/bin/activate
+
 >pip install -r requirements.txt
 
 ### Comandos para iniciar o RabbitMQ
