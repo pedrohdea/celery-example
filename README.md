@@ -8,7 +8,7 @@ Exemplos didáticos para a Python Brasil 2023, com o intuito de demonstrar como 
 [![YouTube video player](https://www.youtube.com/embed/ig9hbt-yKkM?si=LHCwnRCt8RJjiNVv)](https://www.youtube.com/embed/ig9hbt-yKkM?si=LHCwnRCt8RJjiNVv)
 
 <div style="display:flex;flex-direction:row">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ig9hbt-yKkM?si=LHCwnRCt8RJjiNVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<img width="560" height="315" src="https://www.youtube.com/embed/ig9hbt-yKkM?si=LHCwnRCt8RJjiNVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></img>
 </div>
 
 ### Para subir o projeto e começar a botar a mão na massa, você precisa de:
