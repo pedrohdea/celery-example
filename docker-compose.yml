@@ -4,8 +4,8 @@ services:
   rabbitmq:
     image: rabbitmq:3-management-alpine
     ports:
-        - 5672:5672
-        - 15672:15672
+      - 5672:5672 #Workers
+      - 15672:15672 #Manager
 
   # flower:
   #   build: .
