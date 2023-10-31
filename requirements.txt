@@ -1,0 +1,5 @@
+flower
+celery
+loguru
+black
+IPython

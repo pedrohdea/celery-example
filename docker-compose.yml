@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+        - 5672:5672
+        - 15672:15672
+
+  # flower:
+  #   build: .
+  #   command: celery -A tasks flower
+  #   volumes:
+  #     - ./examples:/data
+  #   working_dir: /data
+  #   ports:
+  #     - 5555:5555
+  #   environment:
+  #     CELERY_BROKER_URL: redis://redis
+  #     CELERY_RESULT_BACKEND: redis://redis
+  #   depends_on:
+  #     - worker
+  #     - redis
